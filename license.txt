@@ -1,1 +1,16 @@
-nothing.
+$ git init   # 将目录初始化为git可以管理的仓库
+$ git add readme.txt  # 添加文件到暂存区
+$ git commit -m "wrote a readme file"   # 将文件提交到仓库  并添加操作说明
+$ git status    # 查看仓库当前的状态
+$ git diff readme.txt   # 查看文件修改的内容
+$ git log    # git 的历史记录   --pretty=oneline 关键字简化输出信息
+$ git reset --hard HEAD（^*n）  # 回退到历史版本 n代表回退历史版本的次数
+$ git reset --hard 1094a     # 也可以通过log 查看commit版本号，通过版本号回退
+$ git reflog   # 记录每一次命令版本号，
+$ git diff HEAD -- readme.txt    # 查看工作区与版本库中的文件的区别
+$ git checkout -- readme.txt    # 丢弃工作区的修改
+$ git reset HEAD readme.txt    # 将暂存区的修改取消，放回工作区
+$ git rm test.txt    # 从版本库删除文件
+$ git checkout -- test.txt   # 版本库版本替换工作区版本
+
+
