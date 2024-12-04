@@ -13,4 +13,5 @@ $ git reset HEAD readme.txt    # 将暂存区的修改取消，放回工作区
 $ git rm test.txt    # 从版本库删除文件
 $ git checkout -- test.txt   # 版本库版本替换工作区版本
 $ git push origin master   # 本地提交，就可以采用push同步
-
+$ git remote -v   # 查看远程库信息
+$ git remote rm origin   # 删除远程库
