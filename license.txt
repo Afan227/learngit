@@ -21,3 +21,7 @@ $ git checkout name or git switch name   # 切换分支
 $ git checkout -b name or git switch -c name   # 创建并切换分支
 $ git merge name   # 合并某分支到当前分支
 $ git branch -d name   # 删除某分支
+$ git stash  # 保存现场，工作进行一半但是还没提交
+$ git stash list  # 查看工作现场
+$ git stash pop # 恢复并删除现场
+$ git cherry-pick 4c805e2  # 提交一个分支上的commit到另一个分支
