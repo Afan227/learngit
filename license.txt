@@ -15,3 +15,9 @@ $ git checkout -- test.txt   # 版本库版本替换工作区版本
 $ git push origin master   # 本地提交，就可以采用push同步
 $ git remote -v   # 查看远程库信息
 $ git remote rm origin   # 删除远程库
+$ git branch   # 查看分支
+$ git branch name   # 创建分支
+$ git checkout name or git switch name   # 切换分支
+$ git checkout -b name or git switch -c name   # 创建并切换分支
+$ git merge name   # 合并某分支到当前分支
+$ git branch -d name   # 删除某分支
